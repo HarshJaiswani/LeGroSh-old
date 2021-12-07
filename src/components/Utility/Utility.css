@@ -1,0 +1,7 @@
+.utilBox{
+    padding: 20px;
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 2px solid grey;
+}

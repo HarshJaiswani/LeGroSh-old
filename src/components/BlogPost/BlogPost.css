@@ -1,0 +1,45 @@
+.article{
+  position: relative;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #050d22;
+  padding: 20px;
+  color: white;
+  width: 70%;
+  height: 10vh;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.archead{
+  font-size: 1.5rem;
+  color: wheat;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+.arctime{
+  color: grey;
+  font-style: italic;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+.arcdown{
+  color: white;
+  background-color: cadetblue;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.arcdescp{
+  margin-top: 20px;
+  padding: 20px 50px;
+  word-spacing: 2px;
+  line-height: 22px;
+  color: #091921;
+  border-radius: 10px;
+  background-color: rgb(241, 241, 241);
+}

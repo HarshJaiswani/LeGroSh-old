@@ -1,0 +1,59 @@
+/* Nav bar is designed here */
+.nav {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 67px;
+  width: 27px;
+  /* height: 27px; */
+  border-radius: 50%;
+  background-color: white;
+  line-height: 27px;
+  color: #050d22;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: center;
+}
+.brand {
+  width: 25%;
+}
+.brandName img {
+  width: 270px;
+}
+.links {
+  display: flex;
+}
+.nav-link {
+  font-size: 0.9rem;
+  padding: 2px;
+  border-bottom: 2px solid transparent;
+  margin: 18px;
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.842);
+  border-bottom: 2px solid crimson;
+}
+.user {
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #2e374ad1;
+  border-radius: 5px;
+  margin: 0px 50px;
+  border: 1px solid #57606a;
+  padding: 5px 15px;
+  width: 18%;
+  color: rgba(255, 255, 255, 0.842);
+}
+.active{
+  border-bottom: 2px solid white;
+}

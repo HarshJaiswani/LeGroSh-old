@@ -1,0 +1,45 @@
+.workcard{
+    position: relative;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+.cardpost{
+    width: 100%;
+    color: white;
+    height: 60%;
+    border-radius: 10px;
+    background-color: #091921;
+}
+.carddate{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 200px;
+    /* height: 20px; */
+    padding: 10px 20px;
+    color: wheat;
+    background-color: navy;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.cardbody{
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+    padding: 10px;
+}
+.cardbody h2{
+    color: blue;
+    font-family: monospace;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+}
+.cardbody span{
+    color: grey;
+}

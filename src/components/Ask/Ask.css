@@ -1,0 +1,52 @@
+#ask {
+  padding-top: 80px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #050d22;
+}
+#ask h1 {
+  font-size: 2.7rem;
+  font-family: cursive;
+  width: 100%;
+  text-align: center;
+  background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+.askConatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.askText {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 80%;
+}
+.askText p {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-family: monospace;
+  margin: 10px;
+}
+.formlink{
+  color: white;
+  margin-bottom: 50px;
+  padding: 7px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  /* background-color: grey; */
+  border: 2px solid orange;
+}
+.formlink:hover{
+  transform: scale(0.95);
+}

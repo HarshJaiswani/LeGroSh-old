@@ -1,0 +1,65 @@
+.finance {
+    position: relative;
+  margin: auto;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  width: 50%;
+  height: 10vh;
+  overflow: hidden;
+  background-color: #050d22;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.finform {
+  padding: 20px;
+  width: 94%;
+  margin: 20px auto;
+  margin-top: 30px;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 5px grey;
+  background-color: white;
+}
+.finform input {
+  width: 100px;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+  border-radius: 5px;
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+  /* background-color: aqua; */
+  height: 4vh;
+  color: darkcyan;
+  font-weight: 600;
+  font-family: cursive;
+  /* font-size: 1rem; */
+}
+.finform > div {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.finicon {
+  /* border: 2px solid firebrick; */
+  /* border-left: 1px solid grey; */
+  padding: 2px 5px;
+  color: skyblue;
+}
+.fincont {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  /* background-color: aqua; */
+  border-radius: 5px;
+}
+.finform label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  color: green;
+}

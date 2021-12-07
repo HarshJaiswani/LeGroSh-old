@@ -1,0 +1,37 @@
+.articleContainer {
+  position: relative;
+  border-bottom: 2px solid grey;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.articleStamp {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px grey;
+}
+.articleStamp h2{
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 20px;
+}
+.articleStamp a{
+    margin: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.articleStamp a:hover{
+    color: blue;
+}

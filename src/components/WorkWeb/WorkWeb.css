@@ -1,0 +1,52 @@
+#workweb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+}
+.workwebbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    margin: 50px;
+    width: 35vw;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    min-height: 40vh;
+    border-radius: 10px;
+    background-color: white;
+}
+.workwebhead{
+    width: 100%;
+    height: 40px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #050d22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.workwebbody{
+    padding: 20px;
+}
+.workwebbody div{
+    margin: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: grey;
+}
+.workweblogo{
+    margin: 10px;
+    float: left;
+    width: 70px;
+}

@@ -1,0 +1,24 @@
+.project {
+  position: relative;
+  width: 40%;
+  height: 40vh;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  background-color: cadetblue;
+}
+.LiveLink {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 2px solid blue;
+  text-decoration: none;
+  color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.project:hover .LiveLink {
+  display: block;
+}

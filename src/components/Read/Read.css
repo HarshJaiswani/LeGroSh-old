@@ -1,0 +1,77 @@
+#Read {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #050d22;
+}
+#Read h1 {
+  margin-bottom: 50px;
+  background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  font-size: 2.7rem;
+  text-align: center;
+}
+#Read>p {
+  margin: auto;
+  width: 90%;
+  font-family: monospace;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #8193b2;
+  font-size: 1.5rem;
+}
+.readBox{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px;
+  width: 100%;
+}
+.readitem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px white;
+  width: 40vw;
+  height: 40vh;
+  margin: 20px 0px;
+  background-color: rgba(241, 241, 241);
+}
+.readhead{
+  padding: 10px 0px;
+  width: 100%;
+  background-color: cadetblue;
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 1.3rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.readDecp{
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: grey;
+}
+.readlink{
+  margin: 10px 0px;
+  text-decoration: none;
+  border: 2px solid orange;
+  background-color: inherit;
+  color: black;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: all 0.04s;
+}
+.readlink:hover{
+  transform: scale(0.9);
+}

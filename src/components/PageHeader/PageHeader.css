@@ -1,0 +1,30 @@
+.pagehead {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #050d22;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+}
+.pageName {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  color: wheat;
+  font-family: monospace;
+}
+.pageDescp {
+  padding: 0px 100px;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+  color: grey;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}

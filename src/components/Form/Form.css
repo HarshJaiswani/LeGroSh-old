@@ -1,0 +1,56 @@
+.formContainer {
+  padding: 50px 0px;
+  /* box-shadow: inset 0px 0px 50px purple; */
+  width: 100%;
+  min-height: 100vh;
+  background-color: #050d22;
+}
+.formBody {
+  box-shadow: 0px 0px 20px blue;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  /* height: 30vh; */
+  /* margin-top: 20px; */
+  color: #627597;
+  border-radius: 10px;
+  border: 1px solid #202637;
+  background-color: #0c162d;
+}
+.formStart p {
+  font-family: monospace;
+  font-size: 1rem;
+  margin: 10px;
+}
+.choice{
+  border-radius: 5px;
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+.choice div{
+  color: white;
+  border-radius: 5px;
+  padding: 0px 10px;
+  border: 1px solid grey;
+  margin: 10px;
+  display: inline-block;
+}
+.subbtn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  /* border: 2px solid wheat; */
+  outline: none;
+  background-color: inherit;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 60%;
+  font-size: 1rem;
+  box-shadow: 0px 0px 5px white;
+  transition: all 0.5s;
+}
+.subbtn:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
