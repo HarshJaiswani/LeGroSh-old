@@ -37,8 +37,10 @@
 .arcdescp{
   margin-top: 20px;
   padding: 20px 50px;
+  letter-spacing: 2px;
   word-spacing: 2px;
   line-height: 22px;
+  /* color: g; */
   color: #091921;
   border-radius: 10px;
   background-color: rgb(241, 241, 241);

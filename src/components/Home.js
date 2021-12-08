@@ -5,7 +5,7 @@ import Read from "./Read/Read";
 import Ask from "./Ask/Ask";
 import Footer from "./Footer/Footer";
 import NavBar from "./NavBar/NavBar";
-import Credits from './Footer/Credits'
+import Credits from "./Footer/Credits";
 import WorkWeb from "./WorkWeb/WorkWeb";
 
 const Home = (props) => {
