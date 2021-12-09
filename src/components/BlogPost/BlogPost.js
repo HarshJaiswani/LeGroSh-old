@@ -18,9 +18,16 @@ const BlogPost = (props) => {
       <span className="arcdown" onClick={clickFunc}></span>
         <span className="arctime">({props.time})</span>
         <div className="arcdescp">
-          {props.descp}
-          <br />
-          <span>Learn - Grow - Share</span> 
+          <span className="arcdescppart">{props.descp.part1}</span>
+          <span className="arcdescppart">{props.descp.part2}</span>
+          <span className="arcdescppart">{props.descp.part3}</span>
+          <span className="arcdescppart">{props.descp.part4}</span>
+          <span className="arcdescppart">{props.descp.part5}</span>
+          <span className="arcdescppart">{props.descp.part6}</span>
+          <span className="arcdescppart">{props.descp.part7}</span>
+          <span className="arcdescppart">{props.descp.part8}</span>
+          <span className="arcdescppart">{props.descp.part9}</span>
+          <span className="arcdescppart">Learn - Grow - Share</span> 
         </div>
       </div>
     </>

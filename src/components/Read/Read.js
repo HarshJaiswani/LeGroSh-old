@@ -15,7 +15,7 @@ const Read = () => {
         <div className="readitem">
           <div className="readhead">Heading</div>
           <p className="readDecp">
-            {data.article1.post}
+            {data.article1.post.part1}
           </p>
           <Link className="readlink" to="/articles">
             Continue Reading
@@ -29,7 +29,7 @@ const Read = () => {
             facere aperiam eveniet esse illo. Maxime, dolor esse...
           </p>
           <Link className="readlink" to="/articles">
-            Read More
+            Continue Reading
           </Link>
         </div>
         <div className="readitem">
@@ -40,7 +40,7 @@ const Read = () => {
             facere aperiam eveniet esse illo. Maxime, dolor esse...
           </p>
           <Link className="readlink" to="/articles">
-            Read More
+            Continue Reading
           </Link>
         </div>
         <div className="readitem">
@@ -51,7 +51,7 @@ const Read = () => {
             facere aperiam eveniet esse illo. Maxime, dolor esse...
           </p>
           <Link className="readlink" to="/articles">
-            Read More
+            Continue Reading
           </Link>
         </div>
       </div>
