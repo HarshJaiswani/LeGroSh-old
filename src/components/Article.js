@@ -4,7 +4,6 @@ import PageHeader from './PageHeader/PageHeader';
 import BlogPost from "./BlogPost/BlogPost";
 import './Article.css';
 import data from '../Data';
-// import { Link } from "react-router-dom";
 
 const Article = (props) => {
   return (

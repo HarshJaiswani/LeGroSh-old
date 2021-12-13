@@ -11,6 +11,7 @@
 .logo {
   position: absolute;
   top: 22px;
+  /* left: 42%; */
   left: 67px;
   width: 27px;
   /* height: 27px; */
@@ -23,13 +24,18 @@
   text-align: center;
 }
 .brand {
+  /* background-color: #57606a; */
+  /* margin: auto; */
   width: 25%;
 }
 .brandName img {
   width: 270px;
 }
 .links {
-  display: flex;
+  /* display: none; */
+  /* display: flex; */
+  margin: auto;
+  /* background-color: aqua; */
 }
 .nav-link {
   font-size: 0.9rem;
@@ -44,6 +50,7 @@
   border-bottom: 2px solid crimson;
 }
 .user {
+  /* display: none; */
   letter-spacing: 2px;
   text-align: center;
   background-color: #2e374ad1;
@@ -56,4 +63,55 @@
 }
 .active{
   border-bottom: 2px solid white;
+}
+.mobileicon{
+  display: none;
+  color: whitesmoke;
+  /* margin: 0px 50px; */
+}
+.mobilebrand{
+  color: whitesmoke;
+  display: none;
+}
+.mobilelinks{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 30%;
+  background-color: aqua;
+}
+@media screen and (max-width: 800px) and (min-width: 640px) {
+  .user{
+    display: none;
+  }
+}
+@media screen and (max-width: 640px){
+  .user{
+    display: none;
+  }
+  .links{
+    display: none;
+  }
+  .brand{
+    display: none;
+  }
+  .logo{
+    top: 12px;
+    /* position: unset; */
+    left: 40%;
+  }
+  .mobileicon{
+    font-size: 1.5rem;
+    display: block;
+    margin: 5px 20px;
+  }
+  .mobilebrand{
+    /* width: 30%; */
+    /* background-color: darkblue; */
+    line-height: 50px;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+  }
 }
