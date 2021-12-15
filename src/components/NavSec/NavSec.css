@@ -29,7 +29,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   padding: 0px 50px;
 }
 .abt div p{
@@ -55,4 +55,24 @@
 .abt div a:hover{
   cursor: pointer;
   transform: scale(0.95);
+}
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .abt{
+    width: 95%;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .abt{
+    flex-direction: column;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .abt{
+    flex-direction: column;
+    width: 95%;
+  }
+  .abt div{
+    padding: 0px;
+  }
 }

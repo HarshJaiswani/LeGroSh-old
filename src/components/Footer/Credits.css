@@ -29,3 +29,25 @@
   background-color: rgb(241, 241, 241);
   border-bottom: 2px solid grey;
 }
+@media screen and (max-width: 700px) and (min-width: 540px) {
+  .freepik{
+    font-size: 0.7rem;
+  }
+  .github{
+    font-size: 0.7rem;
+  }
+  .credits{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .credits{
+    flex-direction: column;
+  }
+  .freepik{
+    margin: 10px;
+  }
+  .github{
+    margin: 10px;
+  }
+}

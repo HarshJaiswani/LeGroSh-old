@@ -72,21 +72,14 @@
 .mobilebrand{
   color: whitesmoke;
   display: none;
-}
-.mobilelinks{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-  width: 30%;
-  background-color: aqua;
+  text-decoration: none;
 }
 @media screen and (max-width: 800px) and (min-width: 640px) {
   .user{
     display: none;
   }
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) and (min-width: 600px) {
   .user{
     display: none;
   }
@@ -100,6 +93,35 @@
     top: 12px;
     /* position: unset; */
     left: 40%;
+  }
+  .mobileicon{
+    font-size: 1.5rem;
+    display: block;
+    margin: 5px 20px;
+  }
+  .mobilebrand{
+    /* width: 30%; */
+    /* background-color: darkblue; */
+    line-height: 50px;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px){
+  .user{
+    display: none;
+  }
+  .links{
+    display: none;
+  }
+  .brand{
+    display: none;
+  }
+  .logo{
+    top: 12px;
+    /* position: unset; */
+    left: 30%;
   }
   .mobileicon{
     font-size: 1.5rem;

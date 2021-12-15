@@ -1,8 +1,8 @@
 #ask {
   padding-top: 80px;
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #050d22;
 }
 #ask h1 {
@@ -49,4 +49,33 @@
 }
 .formlink:hover{
   transform: scale(0.95);
+}
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .askText{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .askText{
+    width: 100%;
+    padding: 30px;
+  }
+  #ask h1 {
+    font-size: 2rem;
+  }
+  .askText p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .askText{
+    width: 100%;
+    padding: 30px;
+  }
+  #ask h1 {
+    font-size: 1.7rem;
+  }
+  .askText p {
+    font-size: 0.9rem;
+  }
 }

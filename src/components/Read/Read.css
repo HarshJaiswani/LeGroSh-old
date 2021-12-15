@@ -75,3 +75,31 @@
 .readlink:hover{
   transform: scale(0.9);
 }
+@media screen and (max-width: 900px) and (min-width: 670px) {
+  #Read h1{
+    font-size: 2rem;
+  }
+  #Read>p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  #Read h1{
+    font-size: 1.7rem;
+  }
+  #Read>p{
+    font-size: 1rem;
+  }
+  .readBox{
+    flex-direction: column;
+  }
+  .readitem{
+    width: 80vw;
+  }
+  .readhead{
+    font-size: 1.1rem;
+  }
+  .readDecp{
+    font-size: 0.9rem;
+  }
+}

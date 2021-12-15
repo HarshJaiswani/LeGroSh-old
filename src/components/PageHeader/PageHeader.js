@@ -10,13 +10,7 @@ const PageHeader = (props) => {
       <div className="pagehead">
         <img
           src={glow}
-          style={{
-            position: "absolute",
-            top: "0px",
-            left: "30px",
-            width: "120.31%",
-            margin: "0 -8.65%",
-          }}
+          className="glowimg"
           alt=""
         />
         <span className="pageName">{props.pageName}</span>

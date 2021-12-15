@@ -7,10 +7,10 @@ const NavBar = () => {
       <a href="#Read">
         Read
       </a>
-      <a href="#workweb">
+      <a href="#workhere">
         Work
       </a>
-      <a href="#workweb">
+      <a href="#webhere">
         Web
       </a>
       <a href="#ask">

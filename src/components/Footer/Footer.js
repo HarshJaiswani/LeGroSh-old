@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer style={{width: '100%' , backgroundColor: 'rgb(241,241,241)'}}>
-            <div className="foot" style={{width: '100%' , height: '10vh'}}>
+            <div className="foot" style={{width: '100%' , height: 'fit-content'}}>
             <h1 style={{
                 fontSize: '1.1rem',
                 textAlign: 'center',
