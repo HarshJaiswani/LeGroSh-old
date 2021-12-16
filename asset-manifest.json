@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LeGroSh/static/css/main.c0981948.chunk.css",
-    "main.js": "/LeGroSh/static/js/main.305cc531.chunk.js",
-    "main.js.map": "/LeGroSh/static/js/main.305cc531.chunk.js.map",
+    "main.js": "/LeGroSh/static/js/main.b242fa5f.chunk.js",
+    "main.js.map": "/LeGroSh/static/js/main.b242fa5f.chunk.js.map",
     "runtime-main.js": "/LeGroSh/static/js/runtime-main.f9faa94d.js",
     "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.f9faa94d.js.map",
     "static/js/2.1f22a4a0.chunk.js": "/LeGroSh/static/js/2.1f22a4a0.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.f9faa94d.js",
     "static/js/2.1f22a4a0.chunk.js",
     "static/css/main.c0981948.chunk.css",
-    "static/js/main.305cc531.chunk.js"
+    "static/js/main.b242fa5f.chunk.js"
   ]
 }
