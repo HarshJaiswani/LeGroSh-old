@@ -19,42 +19,6 @@
     margin: 0px 20px;
     width: 40px;
 }
-.stampbar{
-    position: fixed;
-    top: 50px;
-    right: 20px;
-    /* width: 15vw; */
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 5px grey;
-    background-color: white;
-    height: fit-content;
-    margin-top: 50px;
-    /* height: 92vh; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    /* border-right: 2px solid rgba(0, 0, 0, 0.2); */
-}
-.stampbar h1{
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: 10px 20px;
-    background-color: navy;
-    color: wheat;
-    padding: 10px;
-    border-radius: 10px;
-}
-.stampbar a{
-    text-decoration: none;
-    margin: 10px;
-    color: black;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-.stampbar a:hover{
-    color: blue;
-}
 .achieve{
     background-color: #d5f3ff;
     width: 100%;
@@ -65,5 +29,5 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 82vw;
+    width: 100vw;
 }

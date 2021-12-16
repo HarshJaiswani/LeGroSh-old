@@ -1,0 +1,10 @@
+.projects{
+    border-bottom: 2px solid grey;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

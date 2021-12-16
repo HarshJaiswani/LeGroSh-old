@@ -1,11 +1,11 @@
 .finance {
-    position: relative;
+  position: relative;
   margin: auto;
   padding: 20px;
   color: white;
   border-radius: 10px;
   width: 50%;
-  height: 10vh;
+  /* height: 100px; */
   overflow: hidden;
   background-color: #050d22;
   letter-spacing: 2px;
@@ -62,4 +62,44 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 1.1rem;
   color: green;
+}
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .finance{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .finance{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 460px) {
+  .finance{
+    width: 100%;
+  }
+  .finform label{
+    font-size: 0.9rem;
+  }
+  .finform input{
+    width: 60px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .finform > div{
+    flex-direction: column;
+  }
+  .finance{
+    width: 100%;
+  }
+  .finform label{
+    font-size: 0.9rem;
+  }
+  .finform input{
+    width: 60px;
+  }
+  .fincont{
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+  }
 }

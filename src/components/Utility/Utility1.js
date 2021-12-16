@@ -26,7 +26,7 @@ const Utility1 = () => {
     <>
       <div
         className="finance"
-        style={check ? { height: "60vh" } : { height: "10vh" }}
+        style={check ? { height: "500px" } : { height: "60px" }}
       >
         <span className="arcdown" onClick={toggle}></span>
         <span>SIP Calculator</span>

@@ -38,7 +38,7 @@ const Form = (props) => {
           <label htmlFor="join">Work with Us</label>
           </div>
         </div>}
-        {id === 'web' && <p style={{marginTop: '20px',color: 'wheat'}}>You can fill the above form , Our team will soon contact you to address your needs. Thanks ! </p>}
+        {id === 'web' && <p style={{marginTop: '20px', fontSize: '0.9rem' ,color: 'wheat'}}>You can fill the above form , Our team will soon contact you to address your needs. Thanks ! </p>}
         {id === 'ment' && <div><FormField info="Querry" type="text" value="" func={setShow} show={show} /></div>}
         {id === 'join' && <div><FormField info="Interest" type="text" value="" func={setShow} show={show} msg="(Input Skills or Profile you are comfortable working In)" /></div>}
         {id === 'web' && <button type="submit" className="subbtn" onClick={submitHandle}>Let's Explore</button>}

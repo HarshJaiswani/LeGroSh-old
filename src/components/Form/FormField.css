@@ -39,3 +39,15 @@ input[type="number"]::-webkit-outer-spin-button {
 .btnCont:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 400px) {
+  .formfield label{
+    font-size: 0.9rem;
+  }
+  .formfieldsinput{
+    font-size: 0.9rem;
+  }
+  .btnCont{
+    position: static;
+    padding: 5px 5px;
+  }
+}

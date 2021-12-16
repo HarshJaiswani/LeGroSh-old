@@ -1,11 +1,11 @@
 .article{
   position: relative;
-  margin: 20px;
+  margin: 30px;
   border-radius: 10px;
   background-color: #050d22;
   padding: 20px;
   color: white;
-  width: 70%;
+  width: 80vw;
   /* height: 10vh; */
   /* max-height: 100vh; */
   overflow: hidden;
@@ -50,4 +50,74 @@
   display: inline-block;
   margin: 5px 0px;
   /* text-align: center; */
+}
+@media screen and (max-width: 1000px) and (min-width: 650px) {
+  .article{
+    width: 90vw;
+  }
+  .arcdescp{
+    padding: 20px 80px;
+  }
+}
+@media screen and (max-width: 650px) and (min-width: 400px) {
+  .article{
+    width: 90vw;
+  }
+  .arctime{
+    margin: 10px 20px;
+    display: block;
+  }
+  .archead{
+    font-size: 1.4rem;
+    margin: 10px;
+  }
+  .article{
+    margin: 20px;
+  }
+  .arcdescp{
+    padding: 20px 40px;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 320px) {
+  .article{
+    width: 90vw;
+  }
+  .arctime{
+    margin: 20px;
+    display: block;
+  }
+  .archead{
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  .arcdescp{
+    padding: 20px;
+  }
+  .article{
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .article{
+    width: 90vw;
+  }
+  .arctime{
+    margin: 20px;
+    display: block;
+  }
+  .archead{
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .arcdescp{
+    padding: 15px 5px;
+  }
+  .article{
+    margin: 15px;
+  }
+  .arcdown{
+    right: 10px;
+    width: 25px;
+    height: 25px;
+  }
 }

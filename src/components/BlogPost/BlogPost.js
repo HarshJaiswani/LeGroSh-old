@@ -12,7 +12,7 @@ const BlogPost = (props) => {
     <>
       <div
         className="article article1"
-        style={check ? { height: "fit-content" } : { height: "10vh" }}
+        style={check ? { height: "fit-content" } : { height: "60px" }}
       >
         <span className="archead">{props.head}</span>
       <span className="arcdown" onClick={clickFunc}></span>

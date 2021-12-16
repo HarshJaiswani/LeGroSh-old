@@ -36,17 +36,6 @@ const MyDailyWork = () => {
                 <WorkCards />
                 <WorkCards />
             </div>
-            <div className="stampbar">
-                <h1>Date Stamp</h1>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-                <a href="/">26th Nov 2021</a>
-            </div>
             </div>
             <Footer />
         </div>

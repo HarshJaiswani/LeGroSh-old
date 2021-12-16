@@ -2,13 +2,9 @@ import React from "react";
 import "./Project.css";
 
 const Project = () => {
-  return (
-    <div className="project project1">
-      <a className="LiveLink" href="/">
-        Live Preview
-      </a>
-    </div>
-  );
+  return <a href="/" className="project">
+    work
+  </a>;
 };
 
 export default Project;

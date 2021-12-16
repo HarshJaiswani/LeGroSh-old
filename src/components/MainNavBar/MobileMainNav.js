@@ -5,7 +5,7 @@ import "./MobileMainNav.css";
 const MobileMainNav = (props) => {
     let location = useLocation();
   return (
-    <div className="mobilemainnav" style={props.check ? {width: '60%',opacity: '1'} : {width: '0vw',opacity: '0'}}>
+    <div className="mobilemainnav" style={props.check ? {width: '60%',left: '0px'} : {width: '0vw',left: '-100px'}}>
         <div className="closebtn" onClick={() => props.checkfunc(false)}><i class="fa fa-times" aria-hidden="true"></i></div>
       <div
         className="mobilelinks"

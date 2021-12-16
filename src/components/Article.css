@@ -1,5 +1,4 @@
 .articleContainer {
-  position: relative;
   border-bottom: 2px solid grey;
   background-color: rgb(241, 241, 241);
   width: 100%;
@@ -7,31 +6,39 @@
   display: flex;
   flex-wrap: wrap;
 }
-.articleStamp {
-  position: absolute;
-  top: 200px;
-  right: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px grey;
+.articletopspan{
+  border-left: 5px solid navy;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  margin: 20px 200px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: slategrey;
 }
-.articleStamp h2{
-    letter-spacing: 2px;
-    font-size: 1.2rem;
-    font-weight: 400;
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .articletopspan{
+    margin: 20px 100px;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 400px) {
+  .articletopspan{
+    font-size: 1rem;
+    margin: 20px 50px;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 320px) {
+  .articletopspan{
+    font-size: 0.9rem;
     margin: 20px;
+    border-left: 5px solid rgb(241, 241, 241);
+  }
 }
-.articleStamp a{
+@media screen and (max-width: 320px) {
+  .articletopspan{
+    font-size: 0.9rem;
     margin: 10px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: black;
-    font-style: italic;
-}
-.articleStamp a:hover{
-    color: blue;
+    border-left: 5px solid rgb(241, 241, 241);
+  }
 }
