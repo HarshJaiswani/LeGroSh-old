@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/LeGroSh/static/css/main.c0981948.chunk.css",
+    "main.js": "/LeGroSh/static/js/main.305cc531.chunk.js",
+    "main.js.map": "/LeGroSh/static/js/main.305cc531.chunk.js.map",
+    "runtime-main.js": "/LeGroSh/static/js/runtime-main.f9faa94d.js",
+    "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.f9faa94d.js.map",
+    "static/js/2.1f22a4a0.chunk.js": "/LeGroSh/static/js/2.1f22a4a0.chunk.js",
+    "static/js/2.1f22a4a0.chunk.js.map": "/LeGroSh/static/js/2.1f22a4a0.chunk.js.map",
+    "static/js/3.b45717d0.chunk.js": "/LeGroSh/static/js/3.b45717d0.chunk.js",
+    "static/js/3.b45717d0.chunk.js.map": "/LeGroSh/static/js/3.b45717d0.chunk.js.map",
+    "index.html": "/LeGroSh/index.html",
+    "static/css/main.c0981948.chunk.css.map": "/LeGroSh/static/css/main.c0981948.chunk.css.map",
+    "static/js/2.1f22a4a0.chunk.js.LICENSE.txt": "/LeGroSh/static/js/2.1f22a4a0.chunk.js.LICENSE.txt",
+    "static/media/brand name.d15c7169.png": "/LeGroSh/static/media/brand name.d15c7169.png",
+    "static/media/glow bg 3.1ffb4ddb.svg": "/LeGroSh/static/media/glow bg 3.1ffb4ddb.svg",
+    "static/media/glow bg.751f37e6.svg": "/LeGroSh/static/media/glow bg.751f37e6.svg",
+    "static/media/illustration.228ddd9d.jpg": "/LeGroSh/static/media/illustration.228ddd9d.jpg",
+    "static/media/logo.f7bbe1fd.png": "/LeGroSh/static/media/logo.f7bbe1fd.png",
+    "static/media/resumeLogo.0a64fc3e.png": "/LeGroSh/static/media/resumeLogo.0a64fc3e.png",
+    "static/media/toolsIcon.96da6d13.png": "/LeGroSh/static/media/toolsIcon.96da6d13.png",
+    "static/media/webIcon.2e9abdd3.png": "/LeGroSh/static/media/webIcon.2e9abdd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9faa94d.js",
+    "static/js/2.1f22a4a0.chunk.js",
+    "static/css/main.c0981948.chunk.css",
+    "static/js/main.305cc531.chunk.js"
+  ]
+}
