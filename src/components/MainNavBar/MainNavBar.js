@@ -17,7 +17,7 @@ const MainNavBar = (props) => {
       <div className="mobileicon" onClick={() => setCheck(true)}><i className="fa fa-bars" aria-hidden="true"></i></div>
       <div className="logo">LGS</div>
       <Link className="mobilebrand" to="/">
-      LeaGroSh
+      LeGroSh
       </Link>
       <div className="brand">
         <Link className="brandName" to="/">
