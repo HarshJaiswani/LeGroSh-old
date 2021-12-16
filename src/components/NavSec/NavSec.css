@@ -24,7 +24,7 @@
   box-shadow: 0px 2px 5px grey;
   background-color: #fcfcfc;
 }
-.abt div{
+.abt div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@
   width: 90%;
   padding: 0px 50px;
 }
-.abt div p{
+.abt div p {
   color: #5d84c7;
   word-spacing: 4px;
   letter-spacing: 2px;
@@ -40,7 +40,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
 }
-.abt div a{
+.abt div a {
   text-decoration: none;
   font-family: monospace;
   margin: 10px;
@@ -52,27 +52,27 @@
   padding: 10px 20px;
   border: none;
 }
-.abt div a:hover{
+.abt div a:hover {
   cursor: pointer;
   transform: scale(0.95);
 }
 @media screen and (max-width: 1000px) and (min-width: 800px) {
-  .abt{
+  .abt {
     width: 95%;
   }
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
-  .abt{
+  .abt {
     flex-direction: column;
     width: 95%;
   }
 }
 @media screen and (max-width: 600px) {
-  .abt{
+  .abt {
     flex-direction: column;
     width: 95%;
   }
-  .abt div{
+  .abt div {
     padding: 0px;
   }
 }

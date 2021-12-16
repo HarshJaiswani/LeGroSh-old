@@ -8,19 +8,19 @@
   background-color: cadetblue;
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
-  .project{
+  .project {
     width: 60vw;
     height: 45vh;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
-  .project{
+  .project {
     width: 80vw;
     height: 45vh;
   }
 }
 @media screen and (max-width: 400px) {
-  .project{
+  .project {
     width: 80vw;
     height: 60vh;
   }

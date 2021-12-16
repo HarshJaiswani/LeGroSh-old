@@ -25,29 +25,28 @@
   margin: auto;
   width: 100%;
   padding: 6px 0px;
-  /* height: 9vh; */
   background-color: rgb(241, 241, 241);
   border-bottom: 2px solid grey;
 }
 @media screen and (max-width: 700px) and (min-width: 540px) {
-  .freepik{
+  .freepik {
     font-size: 0.7rem;
   }
-  .github{
+  .github {
     font-size: 0.7rem;
   }
-  .credits{
+  .credits {
     font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 540px) {
-  .credits{
+  .credits {
     flex-direction: column;
   }
-  .freepik{
+  .freepik {
     margin: 10px;
   }
-  .github{
+  .github {
     margin: 10px;
   }
 }

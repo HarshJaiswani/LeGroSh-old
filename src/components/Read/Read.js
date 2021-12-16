@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Read.css";
-import data from '../../Data';
+import data from "../../Data";
 
 const Read = () => {
   return (
@@ -14,9 +14,7 @@ const Read = () => {
       <div className="readBox">
         <div className="readitem">
           <div className="readhead">Heading</div>
-          <p className="readDecp">
-            {data.article1.post.part1}
-          </p>
+          <p className="readDecp">{data.article1.post.part1}</p>
           <Link className="readlink" to="/articles">
             Continue Reading
           </Link>

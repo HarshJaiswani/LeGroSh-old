@@ -6,17 +6,11 @@ import MainNavBar from "../MainNavBar/MainNavBar";
 const PageHeader = (props) => {
   return (
     <>
-    <MainNavBar UserName={props.UserName} back={props.back} pos={props.pos} />
+      <MainNavBar UserName={props.UserName} back={props.back} pos={props.pos} />
       <div className="pagehead">
-        <img
-          src={glow}
-          className="glowimg"
-          alt=""
-        />
+        <img src={glow} className="glowimg" alt="" />
         <span className="pageName">{props.pageName}</span>
-        <span className="pageDescp">
-          {props.pageDescp}
-        </span>
+        <span className="pageDescp">{props.pageDescp}</span>
       </div>
     </>
   );

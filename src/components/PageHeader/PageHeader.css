@@ -9,7 +9,6 @@
   overflow: hidden;
   width: 100%;
   padding: 100px 0px;
-  /* min-height: 10vh; */
 }
 .pageName {
   margin: 20px;
@@ -29,7 +28,7 @@
   letter-spacing: 2px;
   word-spacing: 4px;
 }
-.glowimg{
+.glowimg {
   position: absolute;
   top: 0px;
   left: 30px;
@@ -37,40 +36,40 @@
   margin: 0 -8.65%;
 }
 @media screen and (max-width: 800px) and (min-width: 640px) {
-  .glowimg{
+  .glowimg {
     display: none;
   }
 }
 @media screen and (max-width: 640px) and (min-width: 550px) {
-  .pageDescp{
+  .pageDescp {
     padding: 0px 60px;
   }
-  .glowimg{
+  .glowimg {
     display: none;
   }
 }
 @media screen and (max-width: 550px) and (min-width: 400px) {
-  .pageDescp{
+  .pageDescp {
     padding: 0px 40px;
   }
-  .glowimg{
+  .glowimg {
     display: none;
   }
-  .pageName{
+  .pageName {
     font-size: 2rem;
   }
-  .glowimg{
+  .glowimg {
     display: none;
   }
 }
 @media screen and (max-width: 400px) {
-  .pageDescp{
+  .pageDescp {
     padding: 0px 40px;
   }
-  .pageName{
+  .pageName {
     font-size: 2rem;
   }
-  .glowimg{
+  .glowimg {
     display: none;
   }
 }

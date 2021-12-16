@@ -1,13 +1,11 @@
 /* Header designing starts here */
 .mainbarspace {
   width: 100%;
-  /* height: 10vh; */
 }
 
 .headdiv {
   margin: 80px 0px;
   width: 100%;
-  /* min-height: 80vh; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,7 +27,6 @@ header {
   justify-content: center;
   color: white;
   width: 65%;
-  /* margin: 0px 80px; */
 }
 .headLeft h1 {
   font-size: 1.8rem;
@@ -45,13 +42,10 @@ header {
   text-align: left;
 }
 .utils {
-  /* border: 2px solid red; */
   width: 30vw;
-  /* height: 65vh; */
   margin-right: 50px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -87,89 +81,89 @@ header {
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  .headdiv{
+  .headdiv {
     flex-direction: column;
   }
-  .headLeft{
+  .headLeft {
     width: 95%;
   }
-  .utils{
+  .utils {
     margin-top: 50px;
     width: 90vw;
     margin-right: 0px;
   }
 }
 @media screen and (max-width: 700px) and (min-width: 600px) {
-  .headdiv{
+  .headdiv {
     flex-direction: column;
   }
-  .headLeft{
+  .headLeft {
     width: 95%;
   }
-  .headLeft p{
+  .headLeft p {
     font-size: 1rem;
     margin: 0px 40px;
   }
-  .headLeft h1{
+  .headLeft h1 {
     font-size: 1.2rem;
     margin: 20px 40px;
   }
-  .utils{
+  .utils {
     margin-top: 50px;
     width: 90vw;
     margin-right: 0px;
   }
-  .utils .util{
+  .utils .util {
     width: 13vw;
     height: 13vw;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
-  .headdiv{
+  .headdiv {
     flex-direction: column;
   }
-  .headLeft{
+  .headLeft {
     width: 95%;
   }
-  .headLeft p{
+  .headLeft p {
     font-size: 1rem;
     margin: 0px 20px;
   }
-  .headLeft h1{
+  .headLeft h1 {
     font-size: 1.2rem;
     margin: 20px;
   }
-  .utils{
+  .utils {
     margin-top: 50px;
     width: 60vw;
     margin-right: 0px;
   }
-  .utils .util{
+  .utils .util {
     width: 20vw;
     height: 20vw;
   }
 }
-@media screen and (max-width: 400px){
-  .headdiv{
+@media screen and (max-width: 400px) {
+  .headdiv {
     flex-direction: column;
   }
-  .headLeft{
+  .headLeft {
     width: 95%;
   }
-  .headLeft p{
+  .headLeft p {
     font-size: 1rem;
     margin: 0px 20px;
   }
-  .headLeft h1{
+  .headLeft h1 {
     font-size: 1.2rem;
     margin: 20px;
   }
-  .utils{
+  .utils {
     margin-top: 50px;
     width: 80vw;
     margin-right: 0px;
   }
-  .utils .util{
+  .utils .util {
     margin: 10px;
     width: 25vw;
     height: 25vw;

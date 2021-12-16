@@ -5,7 +5,6 @@
   color: white;
   border-radius: 10px;
   width: 50%;
-  /* height: 100px; */
   overflow: hidden;
   background-color: #050d22;
   letter-spacing: 2px;
@@ -32,30 +31,23 @@
   outline: none;
   padding: 0px 5px;
   border-radius: 5px;
-  /* border: 2px solid rgba(0, 0, 0, 0.2); */
-  /* background-color: aqua; */
   height: 4vh;
   color: darkcyan;
   font-weight: 600;
   font-family: cursive;
-  /* font-size: 1rem; */
 }
 .finform > div {
   margin: 20px 0px;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* background-color: aqua; */
 }
 .finicon {
-  /* border: 2px solid firebrick; */
-  /* border-left: 1px solid grey; */
   padding: 2px 5px;
   color: skyblue;
 }
 .fincont {
   border: 2px solid rgba(0, 0, 0, 0.2);
-  /* background-color: aqua; */
   border-radius: 5px;
 }
 .finform label {
@@ -64,40 +56,40 @@
   color: green;
 }
 @media screen and (max-width: 1000px) and (min-width: 800px) {
-  .finance{
+  .finance {
     width: 70%;
   }
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
-  .finance{
+  .finance {
     width: 90%;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 460px) {
-  .finance{
+  .finance {
     width: 100%;
   }
-  .finform label{
+  .finform label {
     font-size: 0.9rem;
   }
-  .finform input{
+  .finform input {
     width: 60px;
   }
 }
 @media screen and (max-width: 460px) {
-  .finform > div{
+  .finform > div {
     flex-direction: column;
   }
-  .finance{
+  .finance {
     width: 100%;
   }
-  .finform label{
+  .finform label {
     font-size: 0.9rem;
   }
-  .finform input{
+  .finform input {
     width: 60px;
   }
-  .fincont{
+  .fincont {
     margin: auto;
     margin-top: 10px;
     width: fit-content;

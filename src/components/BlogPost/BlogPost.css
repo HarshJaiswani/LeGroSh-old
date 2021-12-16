@@ -1,4 +1,4 @@
-.article{
+.article {
   position: relative;
   margin: 30px;
   border-radius: 10px;
@@ -6,24 +6,22 @@
   padding: 20px;
   color: white;
   width: 80vw;
-  /* height: 10vh; */
-  /* max-height: 100vh; */
   overflow: hidden;
   transition: all 0.5s;
 }
-.archead{
+.archead {
   font-size: 1.5rem;
   color: white;
   letter-spacing: 2px;
   margin: 20px;
 }
-.arctime{
+.arctime {
   color: grey;
   font-style: italic;
   font-size: 0.9rem;
   letter-spacing: 2px;
 }
-.arcdown{
+.arcdown {
   color: white;
   background-color: cadetblue;
   position: absolute;
@@ -35,87 +33,83 @@
   border-radius: 50%;
   padding: 5px 10px;
 }
-.arcdescp{
+.arcdescp {
   margin-top: 20px;
   padding: 20px 100px;
-  /* letter-spacing: 2px; */
   word-spacing: 2px;
   line-height: 22px;
   color: rgb(209, 201, 201);
-  /* color: #091921; */
   border-radius: 10px;
-  /* background-color: rgb(241, 241, 241); */
 }
-.arcdescppart{
+.arcdescppart {
   display: inline-block;
   margin: 5px 0px;
-  /* text-align: center; */
 }
 @media screen and (max-width: 1000px) and (min-width: 650px) {
-  .article{
+  .article {
     width: 90vw;
   }
-  .arcdescp{
+  .arcdescp {
     padding: 20px 80px;
   }
 }
 @media screen and (max-width: 650px) and (min-width: 400px) {
-  .article{
+  .article {
     width: 90vw;
   }
-  .arctime{
+  .arctime {
     margin: 10px 20px;
     display: block;
   }
-  .archead{
+  .archead {
     font-size: 1.4rem;
     margin: 10px;
   }
-  .article{
+  .article {
     margin: 20px;
   }
-  .arcdescp{
+  .arcdescp {
     padding: 20px 40px;
   }
 }
 @media screen and (max-width: 400px) and (min-width: 320px) {
-  .article{
+  .article {
     width: 90vw;
   }
-  .arctime{
+  .arctime {
     margin: 20px;
     display: block;
   }
-  .archead{
+  .archead {
     font-size: 1.2rem;
     margin: 10px;
   }
-  .arcdescp{
+  .arcdescp {
     padding: 20px;
   }
-  .article{
+  .article {
     margin: 15px;
   }
 }
 @media screen and (max-width: 320px) {
-  .article{
+  .article {
     width: 90vw;
   }
-  .arctime{
+  .arctime {
     margin: 20px;
     display: block;
   }
-  .archead{
+  .archead {
     font-size: 1rem;
     margin: 10px;
   }
-  .arcdescp{
+  .arcdescp {
     padding: 15px 5px;
   }
-  .article{
+  .article {
     margin: 15px;
   }
-  .arcdown{
+  .arcdown {
     right: 10px;
     width: 25px;
     height: 25px;

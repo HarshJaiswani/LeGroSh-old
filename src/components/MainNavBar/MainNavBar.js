@@ -1,4 +1,4 @@
-import React , { useState } from "react";
+import React, { useState } from "react";
 import "./MainNavBar.css";
 import { Link, useLocation } from "react-router-dom";
 import brandName from "../../Assets/brand name.png";
@@ -14,13 +14,15 @@ const MainNavBar = (props) => {
       style={{ backgroundColor: props.back, position: props.pos }}
     >
       <MobileMainNav checkfunc={setCheck} check={check} />
-      <div className="mobileicon" onClick={() => setCheck(true)}><i className="fa fa-bars" aria-hidden="true"></i></div>
+      <div className="mobileicon" onClick={() => setCheck(true)}>
+        <i className="fa fa-bars" aria-hidden="true"></i>
+      </div>
       <div className="logo">LGS</div>
-      <Link className="mobilebrand" to="/">
-      LeGroSh
+      <Link className="mobilebrand" to="/LeGroSh">
+        LeGroSh
       </Link>
       <div className="brand">
-        <Link className="brandName" to="/">
+        <Link className="brandName" to="/LeGroSh">
           {" "}
           <img src={brandName} alt="" />{" "}
         </Link>

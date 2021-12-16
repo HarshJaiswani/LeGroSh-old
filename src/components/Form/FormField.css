@@ -1,6 +1,5 @@
 .formfield {
   position: relative;
-  /* border: 2px solid red; */
   margin: 10px;
   margin-top: 20px;
 }
@@ -27,7 +26,6 @@ input[type="number"]::-webkit-outer-spin-button {
   outline: none;
   border: none;
   letter-spacing: 1px;
-  /* font-size: 1rem; */
   background-color: inherit;
   border: 2px solid green;
   color: green;
@@ -40,13 +38,13 @@ input[type="number"]::-webkit-outer-spin-button {
   cursor: pointer;
 }
 @media screen and (max-width: 400px) {
-  .formfield label{
+  .formfield label {
     font-size: 0.9rem;
   }
-  .formfieldsinput{
+  .formfieldsinput {
     font-size: 0.9rem;
   }
-  .btnCont{
+  .btnCont {
     position: static;
     padding: 5px 5px;
   }

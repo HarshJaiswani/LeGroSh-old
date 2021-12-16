@@ -15,9 +15,9 @@ const capitalise = (word) => {
 };
 const name = prompt("What do we call you ?");
 let UserName;
-if (name === null || name === '') {
-  UserName = capitalise('Hustler');
-}else{
+if (name === null || name === "") {
+  UserName = capitalise("Hustler");
+} else {
   UserName = capitalise(name);
 }
 
@@ -26,15 +26,27 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home UserName={UserName} />}></Route>
-          <Route path="/articles" element={<Article UserName={UserName} />}></Route>
-          <Route path="/work" element={<Work UserName={UserName} />} ></Route>
-          <Route path="/whoweare" element={<WhoWeAre UserName={UserName} />} ></Route>
-          <Route path="/form" element={<Form UserName={UserName} />} ></Route>
-          <Route path="/Resume" element={<ResumeBuilder UserName={UserName} />} ></Route>
+          <Route path="/LeGroSh" element={<Home UserName={UserName} />}></Route>
+          <Route
+            path="/articles"
+            element={<Article UserName={UserName} />}
+          ></Route>
+          <Route path="/work" element={<Work UserName={UserName} />}></Route>
+          <Route
+            path="/whoweare"
+            element={<WhoWeAre UserName={UserName} />}
+          ></Route>
+          <Route path="/form" element={<Form UserName={UserName} />}></Route>
+          <Route
+            path="/Resume"
+            element={<ResumeBuilder UserName={UserName} />}
+          ></Route>
           {/* <Route path="/Resume1" element={<Resume1 />} ></Route> */}
-          <Route path="/todayswork" element={<MyDailyWork />} ></Route>
-          <Route path="/Utility" element={<Utility UserName={UserName} />} ></Route>
+          <Route path="/todayswork" element={<MyDailyWork />}></Route>
+          <Route
+            path="/Utility"
+            element={<Utility UserName={UserName} />}
+          ></Route>
         </Routes>
       </Router>
     </>

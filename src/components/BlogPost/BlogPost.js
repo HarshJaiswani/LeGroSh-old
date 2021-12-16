@@ -15,7 +15,7 @@ const BlogPost = (props) => {
         style={check ? { height: "fit-content" } : { height: "60px" }}
       >
         <span className="archead">{props.head}</span>
-      <span className="arcdown" onClick={clickFunc}></span>
+        <span className="arcdown" onClick={clickFunc}></span>
         <span className="arctime">({props.time})</span>
         <div className="arcdescp">
           <span className="arcdescppart">{props.descp.part1}</span>
@@ -27,7 +27,7 @@ const BlogPost = (props) => {
           <span className="arcdescppart">{props.descp.part7}</span>
           <span className="arcdescppart">{props.descp.part8}</span>
           <span className="arcdescppart">{props.descp.part9}</span>
-          <span className="arcdescppart">Learn - Grow - Share</span> 
+          <span className="arcdescppart">Learn - Grow - Share</span>
         </div>
       </div>
     </>

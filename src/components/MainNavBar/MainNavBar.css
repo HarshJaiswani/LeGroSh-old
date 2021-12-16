@@ -11,10 +11,8 @@
 .logo {
   position: absolute;
   top: 22px;
-  /* left: 42%; */
   left: 67px;
   width: 27px;
-  /* height: 27px; */
   border-radius: 50%;
   background-color: white;
   line-height: 27px;
@@ -24,18 +22,13 @@
   text-align: center;
 }
 .brand {
-  /* background-color: #57606a; */
-  /* margin: auto; */
   width: 25%;
 }
 .brandName img {
   width: 270px;
 }
 .links {
-  /* display: none; */
-  /* display: flex; */
   margin: auto;
-  /* background-color: aqua; */
 }
 .nav-link {
   font-size: 0.9rem;
@@ -50,7 +43,6 @@
   border-bottom: 2px solid crimson;
 }
 .user {
-  /* display: none; */
   letter-spacing: 2px;
   text-align: center;
   background-color: #2e374ad1;
@@ -61,76 +53,69 @@
   width: 18%;
   color: rgba(255, 255, 255, 0.842);
 }
-.active{
+.active {
   border-bottom: 2px solid white;
 }
-.mobileicon{
+.mobileicon {
   display: none;
   color: whitesmoke;
-  /* margin: 0px 50px; */
 }
-.mobilebrand{
+.mobilebrand {
   color: whitesmoke;
   display: none;
   text-decoration: none;
 }
 @media screen and (max-width: 800px) and (min-width: 640px) {
-  .user{
+  .user {
     display: none;
   }
 }
 @media screen and (max-width: 640px) and (min-width: 600px) {
-  .user{
+  .user {
     display: none;
   }
-  .links{
+  .links {
     display: none;
   }
-  .brand{
+  .brand {
     display: none;
   }
-  .logo{
+  .logo {
     top: 12px;
-    /* position: unset; */
     left: 40%;
   }
-  .mobileicon{
+  .mobileicon {
     font-size: 1.5rem;
     display: block;
     margin: 5px 20px;
   }
-  .mobilebrand{
-    /* width: 30%; */
-    /* background-color: darkblue; */
+  .mobilebrand {
     line-height: 50px;
     font-size: 1.5rem;
     display: block;
     margin: auto;
   }
 }
-@media screen and (max-width: 600px){
-  .user{
+@media screen and (max-width: 600px) {
+  .user {
     display: none;
   }
-  .links{
+  .links {
     display: none;
   }
-  .brand{
+  .brand {
     display: none;
   }
-  .logo{
+  .logo {
     top: 12px;
-    /* position: unset; */
     left: 30%;
   }
-  .mobileicon{
+  .mobileicon {
     font-size: 1.5rem;
     display: block;
     margin: 5px 20px;
   }
-  .mobilebrand{
-    /* width: 30%; */
-    /* background-color: darkblue; */
+  .mobilebrand {
     line-height: 50px;
     font-size: 1.5rem;
     display: block;

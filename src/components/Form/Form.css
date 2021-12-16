@@ -1,6 +1,5 @@
 .formContainer {
   padding: 50px 0px;
-  /* box-shadow: inset 0px 0px 50px purple; */
   width: 100%;
   min-height: 100vh;
   background-color: #050d22;
@@ -10,8 +9,6 @@
   padding: 20px;
   margin: auto;
   width: 50%;
-  /* height: 30vh; */
-  /* margin-top: 20px; */
   color: #627597;
   border-radius: 10px;
   border: 1px solid #202637;
@@ -22,12 +19,11 @@
   font-size: 1rem;
   margin: 10px;
 }
-.choice{
+.choice {
   border-radius: 5px;
-  /* border: 2px solid blue; */
   text-align: center;
 }
-.choice div{
+.choice div {
   color: white;
   border-radius: 5px;
   padding: 10px 20px;
@@ -35,13 +31,12 @@
   margin: 10px;
   display: inline-block;
 }
-.choice input{
+.choice input {
   margin: 0px 8px;
 }
-.subbtn{
+.subbtn {
   margin-top: 20px;
   padding: 10px 20px;
-  /* border: 2px solid wheat; */
   outline: none;
   background-color: inherit;
   color: white;
@@ -53,29 +48,29 @@
   box-shadow: 0px 0px 5px white;
   transition: all 0.5s;
 }
-.subbtn:hover{
+.subbtn:hover {
   cursor: pointer;
   transform: scale(0.9);
 }
 @media screen and (max-width: 1000px) and (min-width: 850px) {
-  .formBody{
+  .formBody {
     width: 70%;
   }
 }
 @media screen and (max-width: 850px) and (min-width: 400px) {
-  .formBody{
+  .formBody {
     width: 90%;
   }
 }
 @media screen and (max-width: 400px) {
-  .formBody{
+  .formBody {
     width: 90%;
     box-shadow: 0px 0px 10px blue;
   }
   .formStart p {
     font-size: 0.9rem;
   }
-  .subbtn{
+  .subbtn {
     font-size: 0.9rem;
     padding: 5px 10px;
   }

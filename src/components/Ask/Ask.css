@@ -1,8 +1,6 @@
 #ask {
   padding-top: 80px;
-  /* position: relative; */
   width: 100%;
-  /* overflow: hidden; */
   background-color: #050d22;
 }
 #ask h1 {
@@ -38,25 +36,24 @@
   font-family: monospace;
   margin: 10px;
 }
-.formlink{
+.formlink {
   color: white;
   margin-bottom: 50px;
   padding: 7px 30px;
   text-decoration: none;
   border-radius: 5px;
-  /* background-color: grey; */
   border: 2px solid orange;
 }
-.formlink:hover{
+.formlink:hover {
   transform: scale(0.95);
 }
 @media screen and (max-width: 1000px) and (min-width: 600px) {
-  .askText{
+  .askText {
     width: 100%;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 360px) {
-  .askText{
+  .askText {
     width: 100%;
     padding: 30px;
   }
@@ -68,7 +65,7 @@
   }
 }
 @media screen and (max-width: 360px) {
-  .askText{
+  .askText {
     width: 100%;
     padding: 30px;
   }
