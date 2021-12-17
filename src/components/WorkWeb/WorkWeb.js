@@ -21,17 +21,17 @@ const WorkWeb = () => {
           </div>
           <div>If you are intrested you can fill the form below!</div>
         </div>
-        <Link
+        <a
           className="formlink"
           style={{
             color: "black",
             marginBottom:
               "10px" /* Rest all styles are comming from ask component with the class name formlink */,
           }}
-          to="/form"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfm-REY_urtvQ5-AwIXBKUixvSKAD-8Nrgt83zaoYg15tshNA/viewform?usp=sf_link"
         >
           Fill Form Here
-        </Link>
+        </a>
       </div>
       <div className="workwebbox" id="webhere">
         <div className="workwebhead">Get Your Website</div>
@@ -53,17 +53,17 @@ const WorkWeb = () => {
             cards you can get now!
           </div>
         </div>
-        <Link
+        <a
           className="formlink"
           style={{
             color: "black",
             marginBottom:
               "10px" /* Rest all styles are comming from ask component with the class name formlink */,
           }}
-          to="/form"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfm-REY_urtvQ5-AwIXBKUixvSKAD-8Nrgt83zaoYg15tshNA/viewform?usp=sf_link"
         >
           Fill Form Here
-        </Link>
+        </a>
       </div>
     </div>
   );

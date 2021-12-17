@@ -1,6 +1,5 @@
 import React from "react";
 import "./Ask.css";
-import { Link } from "react-router-dom";
 
 const Ask = () => {
   return (
@@ -25,9 +24,9 @@ const Ask = () => {
             get back to you within 48 to 72 hours
           </p>
         </div>
-        <Link className="formlink" to="/form">
+        <a className="formlink" href="https://docs.google.com/forms/d/e/1FAIpQLSfm-REY_urtvQ5-AwIXBKUixvSKAD-8Nrgt83zaoYg15tshNA/viewform?usp=sf_link">
           Fill Form Here
-        </Link>
+        </a>
       </div>
     </section>
   );
