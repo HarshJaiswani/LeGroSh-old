@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LeGroSh/static/css/main.ded34a52.chunk.css",
-    "main.js": "/LeGroSh/static/js/main.a1991b0b.chunk.js",
-    "main.js.map": "/LeGroSh/static/js/main.a1991b0b.chunk.js.map",
+    "main.css": "/LeGroSh/static/css/main.b15fa7ad.chunk.css",
+    "main.js": "/LeGroSh/static/js/main.0f3b5c56.chunk.js",
+    "main.js.map": "/LeGroSh/static/js/main.0f3b5c56.chunk.js.map",
     "runtime-main.js": "/LeGroSh/static/js/runtime-main.25d6c0ea.js",
     "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.25d6c0ea.js.map",
     "static/js/2.0df5bc93.chunk.js": "/LeGroSh/static/js/2.0df5bc93.chunk.js",
@@ -10,13 +10,19 @@
     "static/js/3.2d588606.chunk.js": "/LeGroSh/static/js/3.2d588606.chunk.js",
     "static/js/3.2d588606.chunk.js.map": "/LeGroSh/static/js/3.2d588606.chunk.js.map",
     "index.html": "/LeGroSh/index.html",
-    "static/css/main.ded34a52.chunk.css.map": "/LeGroSh/static/css/main.ded34a52.chunk.css.map",
+    "static/css/main.b15fa7ad.chunk.css.map": "/LeGroSh/static/css/main.b15fa7ad.chunk.css.map",
     "static/js/2.0df5bc93.chunk.js.LICENSE.txt": "/LeGroSh/static/js/2.0df5bc93.chunk.js.LICENSE.txt",
     "static/media/brand name.d15c7169.png": "/LeGroSh/static/media/brand name.d15c7169.png",
+    "static/media/csspost.2fa78e24.png": "/LeGroSh/static/media/csspost.2fa78e24.png",
     "static/media/glow bg 3.1ffb4ddb.svg": "/LeGroSh/static/media/glow bg 3.1ffb4ddb.svg",
     "static/media/glow bg.751f37e6.svg": "/LeGroSh/static/media/glow bg.751f37e6.svg",
+    "static/media/htmlpost.8429e2ff.png": "/LeGroSh/static/media/htmlpost.8429e2ff.png",
     "static/media/illustration.228ddd9d.jpg": "/LeGroSh/static/media/illustration.228ddd9d.jpg",
+    "static/media/js30.2d40941a.PNG": "/LeGroSh/static/media/js30.2d40941a.PNG",
+    "static/media/jspost.2b28d5b1.jpg": "/LeGroSh/static/media/jspost.2b28d5b1.jpg",
     "static/media/logo.f7bbe1fd.png": "/LeGroSh/static/media/logo.f7bbe1fd.png",
+    "static/media/project1.60447cee.PNG": "/LeGroSh/static/media/project1.60447cee.PNG",
+    "static/media/reactpost.bf4e3250.PNG": "/LeGroSh/static/media/reactpost.bf4e3250.PNG",
     "static/media/resumeLogo.0a64fc3e.png": "/LeGroSh/static/media/resumeLogo.0a64fc3e.png",
     "static/media/toolsIcon.96da6d13.png": "/LeGroSh/static/media/toolsIcon.96da6d13.png",
     "static/media/webIcon.2e9abdd3.png": "/LeGroSh/static/media/webIcon.2e9abdd3.png"
@@ -24,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.25d6c0ea.js",
     "static/js/2.0df5bc93.chunk.js",
-    "static/css/main.ded34a52.chunk.css",
-    "static/js/main.a1991b0b.chunk.js"
+    "static/css/main.b15fa7ad.chunk.css",
+    "static/js/main.0f3b5c56.chunk.js"
   ]
 }
