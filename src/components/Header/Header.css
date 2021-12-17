@@ -61,7 +61,7 @@ header {
   background-color: white;
   border-radius: 20px;
   transition: all 0.2s;
-  box-shadow: 0px 0px 20px #00cfca;
+  box-shadow: 0px 0px 15px #00cfca;
 }
 .utilLogo {
   width: 40%;
@@ -88,7 +88,7 @@ header {
     width: 95%;
   }
   .utils {
-    margin-top: 50px;
+    margin: 50px 0px;
     width: 90vw;
     margin-right: 0px;
   }
@@ -109,13 +109,17 @@ header {
     margin: 20px 40px;
   }
   .utils {
-    margin-top: 50px;
+    margin: 50px 0px;
     width: 90vw;
     margin-right: 0px;
   }
   .utils .util {
     width: 13vw;
     height: 13vw;
+  }
+  .utils .util:hover{
+    background-color: white;
+    box-shadow: 0px 0px 15x #00cfca;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
@@ -134,13 +138,17 @@ header {
     margin: 20px;
   }
   .utils {
-    margin-top: 50px;
+    margin: 50px 0px;
     width: 60vw;
     margin-right: 0px;
   }
   .utils .util {
     width: 20vw;
     height: 20vw;
+  }
+  .utils .util:hover{
+    background-color: white;
+    box-shadow: 0px 0px 15x #00cfca;
   }
 }
 @media screen and (max-width: 400px) {
@@ -159,7 +167,7 @@ header {
     margin: 20px;
   }
   .utils {
-    margin-top: 50px;
+    margin: 50px 0px;
     width: 80vw;
     margin-right: 0px;
   }
@@ -167,5 +175,9 @@ header {
     margin: 10px;
     width: 25vw;
     height: 25vw;
+  }
+  .utils .util:hover{
+    background-color: white;
+    box-shadow: 0px 0px 15x #00cfca;
   }
 }

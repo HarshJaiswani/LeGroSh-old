@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import "./MyDailyWork.css";
 import logo from "../../Assets/logo.png";
 import WorkCards from "../WorkCards/WorkCards";
@@ -12,6 +12,9 @@ import js30 from "../../Assets/js30.PNG";
 import reactpost from "../../Assets/reactpost.PNG";
 
 const MyDailyWork = () => {
+  useEffect(() => {
+    window.scroll(0,0)
+  },)
   return (
     <div className="mywork">
       <div className="worknav">
@@ -36,7 +39,7 @@ const MyDailyWork = () => {
       <div className="achieve">
         <div className="achievecards">
           <WorkCards posturl={reactpost} date="One Month" workName="Learnt React" workDescp="Completed basics of React and few things of MERN stack with CodeWithHarry" />
-          <WorkCards posturl={js30} date="One Month" workName="Learnt JavaScript Techniques" workDescp="Completed 30 Days Challenge 30 Days 30 New Projects. Project Based Learning of JavaScript Concepts " />
+          <WorkCards posturl={js30} date="One Month" workName="Learnt JavaScript Techniques" workDescp="Completed 30 Days Challenge 30 Days 30 New Projects." />
           <WorkCards posturl={jspost} date="Two Month" workName="Learnt JavaScript" workDescp="Completed basics of JavaScript with CodeWithHarry" />
           <WorkCards posturl={csspost} date="One & Half Month" workName="Learnt CSS" workDescp="Completed basic properties of CSS" />
           <WorkCards posturl={htmlpost} date="One Month" workName="Learnt Html" workDescp="Completed basic tags of Html" />

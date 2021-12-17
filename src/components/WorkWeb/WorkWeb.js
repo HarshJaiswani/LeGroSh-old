@@ -6,7 +6,7 @@ import linkIcon from "../../Assets/linkIcon.png";
 const WorkWeb = () => {
   return (
     <div id="workweb">
-      <div className="workwebbox" id="workhere">
+      <div className="workwebbox">
         <div className="workwebhead">Work With Us</div>
         <div className="workwebbody">
           <img className="workweblogo" src={linkIcon} alt="" />{" "}
@@ -32,7 +32,7 @@ const WorkWeb = () => {
           Fill Form Here
         </a>
       </div>
-      <div className="workwebbox" id="webhere">
+      <div className="workwebbox">
         <div className="workwebhead">Get Your Website</div>
         <div className="workwebbody">
           <img className="workweblogo" src={webIcon} alt="" />

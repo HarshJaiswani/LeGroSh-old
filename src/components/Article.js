@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import Footer from "./Footer/Footer";
 import PageHeader from "./PageHeader/PageHeader";
 import BlogPost from "./BlogPost/BlogPost";
@@ -6,6 +6,9 @@ import "./Article.css";
 import data from "../Data";
 
 const Article = (props) => {
+  useEffect(() => {
+    window.scroll(0,0)
+  },)
   return (
     <>
       <PageHeader

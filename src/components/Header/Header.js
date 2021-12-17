@@ -11,7 +11,9 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   const [hover, setHover] = useState(false);
   const changeHover = (paraam) => {
-    setHover(paraam);
+    if (window.innerWidth > '700px') {
+      setHover(paraam);
+    }
   };
   return (
     <header>
