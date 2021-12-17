@@ -5,7 +5,15 @@
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px grey;
-  background-color: cadetblue;
+  transition: all 0.4s;
+}
+.project img{
+  border-radius: 5px;
+  width: inherit;
+  height: inherit;
+}
+.project:hover{
+  transform: scale(1.05);
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .project {

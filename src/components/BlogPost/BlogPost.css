@@ -42,7 +42,7 @@
   border-radius: 10px;
 }
 .arcdescppart {
-  display: inline-block;
+  display: block;
   margin: 5px 0px;
 }
 @media screen and (max-width: 1000px) and (min-width: 650px) {

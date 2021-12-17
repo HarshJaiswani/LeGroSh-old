@@ -3,6 +3,7 @@ import Footer from "./Footer/Footer";
 import PageHeader from "./PageHeader/PageHeader";
 import Project from "./Project/Project";
 import "./Work.css";
+import project1 from "../Assets/project1.PNG";
 
 const Work = (props) => {
   return (
@@ -20,13 +21,7 @@ const Work = (props) => {
           have made only a few projects. Out of which some major ones are shared
           here.
         </span>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        <Project imgurl={project1} pathurl="https://harshjaiswani.github.io/Service-Website/" />
       </div>
       <Footer />
     </>

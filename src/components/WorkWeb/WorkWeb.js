@@ -1,6 +1,5 @@
 import React from "react";
 import "./WorkWeb.css";
-import { Link } from "react-router-dom";
 import webIcon from "../../Assets/webIcon.png";
 import linkIcon from "../../Assets/linkIcon.png";
 

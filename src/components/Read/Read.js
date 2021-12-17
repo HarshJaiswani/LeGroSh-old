@@ -13,40 +13,34 @@ const Read = () => {
       </p>
       <div className="readBox">
         <div className="readitem">
-          <div className="readhead">Heading</div>
-          <p className="readDecp">{data.article1.post.part1}</p>
+          <div className="readhead">{data.article1.heading}</div>
+          <p className="readDecp">{data.article1.post.part6}...</p>
           <Link className="readlink" to="/articles">
             Continue Reading
           </Link>
         </div>
         <div className="readitem">
-          <div className="readhead">Heading</div>
+          <div className="readhead">{data.article2.heading}</div>
           <p className="readDecp">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-            placeat aliquam, ut labore, perferendis vel temporibus tenetur
-            facere aperiam eveniet esse illo. Maxime, dolor esse...
+            {data.article2.post.part6}...
           </p>
           <Link className="readlink" to="/articles">
             Continue Reading
           </Link>
         </div>
         <div className="readitem">
-          <div className="readhead">Heading</div>
+          <div className="readhead">{data.article3.heading}</div>
           <p className="readDecp">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-            placeat aliquam, ut labore, perferendis vel temporibus tenetur
-            facere aperiam eveniet esse illo. Maxime, dolor esse...
+            {data.article3.post.part6}...
           </p>
           <Link className="readlink" to="/articles">
             Continue Reading
           </Link>
         </div>
         <div className="readitem">
-          <div className="readhead">Heading</div>
+          <div className="readhead">{data.article4.heading}</div>
           <p className="readDecp">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-            placeat aliquam, ut labore, perferendis vel temporibus tenetur
-            facere aperiam eveniet esse illo. Maxime, dolor esse...
+            {data.article4.post.part3}...
           </p>
           <Link className="readlink" to="/articles">
             Continue Reading

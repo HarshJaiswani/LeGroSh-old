@@ -27,33 +27,18 @@ const Article = (props) => {
         </span>
         <div style={{ margin: "auto" }}>
           <BlogPost
-            head={data.article1.heading}
-            time={data.article1.date}
+            head={data.article4.heading}
+            time={data.article4.date}
             descp={{
-              part1: data.article1.post.part1,
-              part2: data.article1.post.part2,
-              part3: data.article1.post.part3,
-              part4: data.article1.post.part4,
-              part5: data.article1.post.part5,
-              part6: data.article1.post.part6,
-              part7: data.article1.post.part7,
-              part8: data.article1.post.part8,
-              part9: data.article1.post.part9,
-            }}
-          />
-          <BlogPost
-            head={data.article2.heading}
-            time={data.article2.date}
-            descp={{
-              part1: data.article2.post.part1,
-              part2: data.article2.post.part2,
-              part3: data.article2.post.part3,
-              part4: data.article2.post.part4,
-              part5: data.article2.post.part5,
-              part6: data.article2.post.part6,
-              part7: data.article2.post.part7,
-              part8: data.article2.post.part8,
-              part9: data.article2.post.part9,
+              part1: data.article4.post.part1,
+              part2: data.article4.post.part2,
+              part3: data.article4.post.part3,
+              part4: data.article4.post.part4,
+              part5: data.article4.post.part5,
+              part6: data.article4.post.part6,
+              part7: data.article4.post.part7,
+              part8: data.article4.post.part8,
+              part9: data.article4.post.part9,
             }}
           />
           <BlogPost
@@ -72,33 +57,33 @@ const Article = (props) => {
             }}
           />
           <BlogPost
-            head={data.article4.heading}
-            time={data.article4.date}
+            head={data.article2.heading}
+            time={data.article2.date}
             descp={{
-              part1: data.article4.post.part1,
-              part2: data.article4.post.part2,
-              part3: data.article4.post.part3,
-              part4: data.article4.post.part4,
-              part5: data.article4.post.part5,
-              part6: data.article4.post.part6,
-              part7: data.article4.post.part7,
-              part8: data.article4.post.part8,
-              part9: data.article4.post.part9,
+              part1: data.article2.post.part1,
+              part2: data.article2.post.part2,
+              part3: data.article2.post.part3,
+              part4: data.article2.post.part4,
+              part5: data.article2.post.part5,
+              part6: data.article2.post.part6,
+              part7: data.article2.post.part7,
+              part8: data.article2.post.part8,
+              part9: data.article2.post.part9,
             }}
           />
           <BlogPost
-            head={data.article5.heading}
-            time={data.article5.date}
+            head={data.article1.heading}
+            time={data.article1.date}
             descp={{
-              part1: data.article5.post.part1,
-              part2: data.article5.post.part2,
-              part3: data.article5.post.part3,
-              part4: data.article5.post.part4,
-              part5: data.article5.post.part5,
-              part6: data.article5.post.part6,
-              part7: data.article5.post.part7,
-              part8: data.article5.post.part8,
-              part9: data.article5.post.part9,
+              part1: data.article1.post.part1,
+              part2: data.article1.post.part2,
+              part3: data.article1.post.part3,
+              part4: data.article1.post.part4,
+              part5: data.article1.post.part5,
+              part6: data.article1.post.part6,
+              part7: data.article1.post.part7,
+              part8: data.article1.post.part8,
+              part9: data.article1.post.part9,
             }}
           />
         </div>

@@ -15,6 +15,11 @@
   border-radius: 10px;
   background-color: #091921;
 }
+.cardpost img{
+  width: inherit;
+  height: 100%;
+  border-radius: inherit;
+}
 .carddate {
   font-size: 0.8rem;
   letter-spacing: 1px;

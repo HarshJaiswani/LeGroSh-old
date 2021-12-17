@@ -1,10 +1,10 @@
 import React from "react";
 import "./Project.css";
 
-const Project = () => {
+const Project = (props) => {
   return (
-    <a href="/" className="project">
-      work
+    <a href={props.pathurl} className="project">
+      <img src={props.imgurl} alt="" />
     </a>
   );
 };

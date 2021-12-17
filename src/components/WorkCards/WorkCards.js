@@ -1,15 +1,17 @@
 import React from "react";
 import "./WorkCards.css";
 
-const WorkCards = () => {
+const WorkCards = (props) => {
   return (
     <div className="workcard">
-      <span className="carddate">26th November 2021</span>
-      <div className="cardpost"></div>
+      <span className="carddate">{props.date}</span>
+      <div className="cardpost">
+        <img src={props.posturl} alt="" />
+      </div>
       <div className="cardbody">
-        <h2>Name of Work</h2>
+        <h2>{props.workName}</h2>
         <span>
-          Lorem, ipsum dolor
+          {props.workDescp}
         </span>
       </div>
     </div>
