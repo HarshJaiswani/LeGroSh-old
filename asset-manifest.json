@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LeGroSh/static/css/main.0870d03d.chunk.css",
-    "main.js": "/LeGroSh/static/js/main.7ffd2e73.chunk.js",
-    "main.js.map": "/LeGroSh/static/js/main.7ffd2e73.chunk.js.map",
-    "runtime-main.js": "/LeGroSh/static/js/runtime-main.f9faa94d.js",
-    "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.f9faa94d.js.map",
-    "static/js/2.1f22a4a0.chunk.js": "/LeGroSh/static/js/2.1f22a4a0.chunk.js",
-    "static/js/2.1f22a4a0.chunk.js.map": "/LeGroSh/static/js/2.1f22a4a0.chunk.js.map",
-    "static/js/3.b45717d0.chunk.js": "/LeGroSh/static/js/3.b45717d0.chunk.js",
-    "static/js/3.b45717d0.chunk.js.map": "/LeGroSh/static/js/3.b45717d0.chunk.js.map",
+    "main.css": "/LeGroSh/static/css/main.ded34a52.chunk.css",
+    "main.js": "/LeGroSh/static/js/main.a1991b0b.chunk.js",
+    "main.js.map": "/LeGroSh/static/js/main.a1991b0b.chunk.js.map",
+    "runtime-main.js": "/LeGroSh/static/js/runtime-main.25d6c0ea.js",
+    "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.25d6c0ea.js.map",
+    "static/js/2.0df5bc93.chunk.js": "/LeGroSh/static/js/2.0df5bc93.chunk.js",
+    "static/js/2.0df5bc93.chunk.js.map": "/LeGroSh/static/js/2.0df5bc93.chunk.js.map",
+    "static/js/3.2d588606.chunk.js": "/LeGroSh/static/js/3.2d588606.chunk.js",
+    "static/js/3.2d588606.chunk.js.map": "/LeGroSh/static/js/3.2d588606.chunk.js.map",
     "index.html": "/LeGroSh/index.html",
-    "static/css/main.0870d03d.chunk.css.map": "/LeGroSh/static/css/main.0870d03d.chunk.css.map",
-    "static/js/2.1f22a4a0.chunk.js.LICENSE.txt": "/LeGroSh/static/js/2.1f22a4a0.chunk.js.LICENSE.txt",
+    "static/css/main.ded34a52.chunk.css.map": "/LeGroSh/static/css/main.ded34a52.chunk.css.map",
+    "static/js/2.0df5bc93.chunk.js.LICENSE.txt": "/LeGroSh/static/js/2.0df5bc93.chunk.js.LICENSE.txt",
     "static/media/brand name.d15c7169.png": "/LeGroSh/static/media/brand name.d15c7169.png",
     "static/media/glow bg 3.1ffb4ddb.svg": "/LeGroSh/static/media/glow bg 3.1ffb4ddb.svg",
     "static/media/glow bg.751f37e6.svg": "/LeGroSh/static/media/glow bg.751f37e6.svg",
@@ -22,9 +22,9 @@
     "static/media/webIcon.2e9abdd3.png": "/LeGroSh/static/media/webIcon.2e9abdd3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9faa94d.js",
-    "static/js/2.1f22a4a0.chunk.js",
-    "static/css/main.0870d03d.chunk.css",
-    "static/js/main.7ffd2e73.chunk.js"
+    "static/js/runtime-main.25d6c0ea.js",
+    "static/js/2.0df5bc93.chunk.js",
+    "static/css/main.ded34a52.chunk.css",
+    "static/js/main.a1991b0b.chunk.js"
   ]
 }
