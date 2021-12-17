@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LeGroSh/static/css/main.b15fa7ad.chunk.css",
-    "main.js": "/LeGroSh/static/js/main.0f3b5c56.chunk.js",
-    "main.js.map": "/LeGroSh/static/js/main.0f3b5c56.chunk.js.map",
+    "main.css": "/LeGroSh/static/css/main.24f40e47.chunk.css",
+    "main.js": "/LeGroSh/static/js/main.d92e63da.chunk.js",
+    "main.js.map": "/LeGroSh/static/js/main.d92e63da.chunk.js.map",
     "runtime-main.js": "/LeGroSh/static/js/runtime-main.25d6c0ea.js",
     "runtime-main.js.map": "/LeGroSh/static/js/runtime-main.25d6c0ea.js.map",
     "static/js/2.0df5bc93.chunk.js": "/LeGroSh/static/js/2.0df5bc93.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2d588606.chunk.js": "/LeGroSh/static/js/3.2d588606.chunk.js",
     "static/js/3.2d588606.chunk.js.map": "/LeGroSh/static/js/3.2d588606.chunk.js.map",
     "index.html": "/LeGroSh/index.html",
-    "static/css/main.b15fa7ad.chunk.css.map": "/LeGroSh/static/css/main.b15fa7ad.chunk.css.map",
+    "static/css/main.24f40e47.chunk.css.map": "/LeGroSh/static/css/main.24f40e47.chunk.css.map",
     "static/js/2.0df5bc93.chunk.js.LICENSE.txt": "/LeGroSh/static/js/2.0df5bc93.chunk.js.LICENSE.txt",
     "static/media/brand name.d15c7169.png": "/LeGroSh/static/media/brand name.d15c7169.png",
     "static/media/csspost.2fa78e24.png": "/LeGroSh/static/media/csspost.2fa78e24.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.25d6c0ea.js",
     "static/js/2.0df5bc93.chunk.js",
-    "static/css/main.b15fa7ad.chunk.css",
-    "static/js/main.0f3b5c56.chunk.js"
+    "static/css/main.24f40e47.chunk.css",
+    "static/js/main.d92e63da.chunk.js"
   ]
 }
