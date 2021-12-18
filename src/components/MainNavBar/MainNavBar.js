@@ -30,27 +30,27 @@ const MainNavBar = (props) => {
       <div className="links">
         <Link
           className={`nav-link ${
-            location.pathname === "/articles" ? "active" : ""
+            location.pathname === "/LeGroSh/articles" ? "active" : ""
           }`}
-          to="/articles"
+          to="/LeGroSh/articles"
         >
           {" "}
           Articles{" "}
         </Link>
         <Link
           className={`nav-link ${
-            location.pathname === "/whoweare" ? "active" : ""
+            location.pathname === "/LeGroSh/whoweare" ? "active" : ""
           }`}
-          to="/whoweare"
+          to="/LeGroSh/whoweare"
         >
           {" "}
           Who are we{" "}
         </Link>
         <Link
           className={`nav-link ${
-            location.pathname === "/work" ? "active" : ""
+            location.pathname === "/LeGroSh/work" ? "active" : ""
           }`}
-          to="/work"
+          to="/LeGroSh/work"
         >
           {" "}
           Our Work{" "}

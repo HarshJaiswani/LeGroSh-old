@@ -15,7 +15,7 @@ const Read = () => {
         <div className="readitem">
           <div className="readhead">{data.article1.heading}</div>
           <p className="readDecp">{data.article1.post.part6}...</p>
-          <Link className="readlink" to="/articles">
+          <Link className="readlink" to="/LeGroSh/articles">
             Continue Reading
           </Link>
         </div>
@@ -24,7 +24,7 @@ const Read = () => {
           <p className="readDecp">
             {data.article2.post.part6}...
           </p>
-          <Link className="readlink" to="/articles">
+          <Link className="readlink" to="/LeGroSh/articles">
             Continue Reading
           </Link>
         </div>
@@ -33,7 +33,7 @@ const Read = () => {
           <p className="readDecp">
             {data.article3.post.part6}...
           </p>
-          <Link className="readlink" to="/articles">
+          <Link className="readlink" to="/LeGroSh/articles">
             Continue Reading
           </Link>
         </div>
@@ -42,7 +42,7 @@ const Read = () => {
           <p className="readDecp">
             {data.article4.post.part3}...
           </p>
-          <Link className="readlink" to="/articles">
+          <Link className="readlink" to="/LeGroSh/articles">
             Continue Reading
           </Link>
         </div>

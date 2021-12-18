@@ -29,7 +29,7 @@ const NavSec = () => {
             and do the same on social media of your choice with the tag{" "}
             <span style={{ color: "green" }}>#legrosh</span>
           </p>
-          <Link to="/todayswork">Today's Work</Link>
+          <Link to="/LeGroSh/todayswork">Today's Work</Link>
         </div>
       </div>
     </section>

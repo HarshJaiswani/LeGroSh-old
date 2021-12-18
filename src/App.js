@@ -26,21 +26,21 @@ function App() {
         <Routes>
           <Route path="/LeGroSh" element={<Home UserName={UserName} />}></Route>
           <Route
-            path="/articles"
+            path="/LeGroSh/articles"
             element={<Article UserName={UserName} />}
           ></Route>
-          <Route path="/work" element={<Work UserName={UserName} />}></Route>
+          <Route path="/LeGroSh/work" element={<Work UserName={UserName} />}></Route>
           <Route
-            path="/whoweare"
+            path="/LeGroSh/whoweare"
             element={<WhoWeAre UserName={UserName} />}
           ></Route>
           <Route
-            path="/Resume"
+            path="/LeGroSh/Resume"
             element={<ResumeBuilder UserName={UserName} />}
           ></Route>
-          <Route path="/todayswork" element={<MyDailyWork />}></Route>
+          <Route path="/LeGroSh/todayswork" element={<MyDailyWork />}></Route>
           <Route
-            path="/Utility"
+            path="/LeGroSh/Utility"
             element={<Utility UserName={UserName} />}
           ></Route>
         </Routes>
