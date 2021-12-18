@@ -19,27 +19,27 @@ const MobileMainNav = (props) => {
       <div className="mobilelinks">
         <Link
           className={`moblink ${
-            location.pathname === "/whoweare" ? "active" : ""
+            location.pathname === "/LeGroSh/articles" ? "active" : ""
           }`}
-          to="/articles"
+          to="/LeGroSh/articles"
         >
           {" "}
           Articles{" "}
         </Link>
         <Link
           className={`moblink ${
-            location.pathname === "/whoweare" ? "active" : ""
+            location.pathname === "/LeGroSh/whoweare" ? "active" : ""
           }`}
-          to="/whoweare"
+          to="/LeGroSh/whoweare"
         >
           {" "}
           Who are we{" "}
         </Link>
         <Link
           className={`moblink ${
-            location.pathname === "/whoweare" ? "active" : ""
+            location.pathname === "/LeGroSh/work" ? "active" : ""
           }`}
-          to="/work"
+          to="/LeGroSh/work"
         >
           {" "}
           Our Work{" "}
