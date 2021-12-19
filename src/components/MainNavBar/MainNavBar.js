@@ -18,11 +18,11 @@ const MainNavBar = (props) => {
         <i className="fa fa-bars" aria-hidden="true"></i>
       </div>
       <div className="logo">LGS</div>
-      <Link className="mobilebrand" to="/LeGroSh">
+      <Link className="mobilebrand" to="/">
         LeGroSh
       </Link>
       <div className="brand">
-        <Link className="brandName" to="/LeGroSh">
+        <Link className="brandName" to="/">
           {" "}
           <img src={brandName} alt="" />{" "}
         </Link>
@@ -30,27 +30,27 @@ const MainNavBar = (props) => {
       <div className="links">
         <Link
           className={`nav-link ${
-            location.pathname === "/LeGroSh/articles" ? "active" : ""
+            location.pathname === "/articles" ? "active" : ""
           }`}
-          to="/LeGroSh/articles"
+          to="/articles"
         >
           {" "}
           Articles{" "}
         </Link>
         <Link
           className={`nav-link ${
-            location.pathname === "/LeGroSh/whoweare" ? "active" : ""
+            location.pathname === "/whoweare" ? "active" : ""
           }`}
-          to="/LeGroSh/whoweare"
+          to="/whoweare"
         >
           {" "}
           Who are we{" "}
         </Link>
         <Link
           className={`nav-link ${
-            location.pathname === "/LeGroSh/work" ? "active" : ""
+            location.pathname === "/work" ? "active" : ""
           }`}
-          to="/LeGroSh/work"
+          to="/work"
         >
           {" "}
           Our Work{" "}

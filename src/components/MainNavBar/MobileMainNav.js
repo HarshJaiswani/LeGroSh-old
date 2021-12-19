@@ -14,32 +14,32 @@ const MobileMainNav = (props) => {
       }
     >
       <div className="closebtn" onClick={() => props.checkfunc(false)}>
-        <i class="fa fa-times" aria-hidden="true"></i>
+        <i className="fa fa-times" aria-hidden="true"></i>
       </div>
       <div className="mobilelinks">
         <Link
           className={`moblink ${
-            location.pathname === "/LeGroSh/articles" ? "active" : ""
+            location.pathname === "/articles" ? "active" : ""
           }`}
-          to="/LeGroSh/articles"
+          to="/articles"
         >
           {" "}
           Articles{" "}
         </Link>
         <Link
           className={`moblink ${
-            location.pathname === "/LeGroSh/whoweare" ? "active" : ""
+            location.pathname === "/whoweare" ? "active" : ""
           }`}
-          to="/LeGroSh/whoweare"
+          to="/whoweare"
         >
           {" "}
           Who are we{" "}
         </Link>
         <Link
           className={`moblink ${
-            location.pathname === "/LeGroSh/work" ? "active" : ""
+            location.pathname === "/work" ? "active" : ""
           }`}
-          to="/LeGroSh/work"
+          to="/work"
         >
           {" "}
           Our Work{" "}

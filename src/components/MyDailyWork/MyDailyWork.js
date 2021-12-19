@@ -19,7 +19,7 @@ const MyDailyWork = () => {
     <div className="mywork">
       <div className="worknav">
         <img src={logo} alt="" />
-        <Link to="/LeGroSh">LeGroSh</Link>
+        <Link to="/">LeGroSh</Link>
       </div>
       <span
         style={{

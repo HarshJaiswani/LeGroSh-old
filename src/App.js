@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Article from "./components/Article";
 import WhoWeAre from "./components/WhoWeAre";
@@ -24,26 +24,26 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/LeGroSh" element={<Home UserName={UserName} />}></Route>
+          <Route path="/" element={<Home UserName={UserName} />}></Route>
           <Route
-            path="/LeGroSh/articles"
+            path="/articles"
             element={<Article UserName={UserName} />}
           ></Route>
-          <Route path="/LeGroSh/work" element={<Work UserName={UserName} />}></Route>
+          <Route path="/work" element={<Work UserName={UserName} />}></Route>
           <Route
-            path="/LeGroSh/whoweare"
+            path="/whoweare"
             element={<WhoWeAre UserName={UserName} />}
           ></Route>
           <Route
-            path="/LeGroSh/Resume"
+            path="/Resume"
             element={<ResumeBuilder UserName={UserName} />}
           ></Route>
-          <Route path="/LeGroSh/todayswork" element={<MyDailyWork />}></Route>
+          <Route path="/todayswork" element={<MyDailyWork />}></Route>
           <Route
-            path="/LeGroSh/Utility"
+            path="/Utility"
             element={<Utility UserName={UserName} />}
           ></Route>
-        </Routes>
+          </Routes>
       </Router>
     </>
   );

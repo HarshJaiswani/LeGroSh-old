@@ -41,7 +41,7 @@ const Header = (props) => {
         </div>
         <div className="utils">
           <Link
-            to="/LeGroSh/Utility"
+            to="/Utility"
             className="util util1"
             onMouseEnter={() => changeHover("util1")}
             onMouseLeave={() => changeHover(false)}
@@ -65,7 +65,7 @@ const Header = (props) => {
             )}
           </a>
           <Link
-            to="/LeGroSh/Resume"
+            to="/Resume"
             className="util util3"
             onMouseEnter={() => changeHover("util3")}
             onMouseLeave={() => changeHover(false)}
