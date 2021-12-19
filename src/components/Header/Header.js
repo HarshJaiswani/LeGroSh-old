@@ -33,7 +33,7 @@ const Header = (props) => {
       />
       <div className="headdiv">
         <div className="headLeft">
-          <h1>Namaste Hustlers !</h1>
+          <h1>Namaste {props.UserName} !</h1>
           <p>
             This is the place where I will be sharing my experince & skills to
             help you build & enhance your overall personality & skills by
@@ -79,7 +79,7 @@ const Header = (props) => {
             )}{" "}
           </Link>
           <HashLink
-            to="#workweb"
+            to="#webhere"
             className="util util4"
             onMouseEnter={() => changeHover("util4")}
             onMouseLeave={() => changeHover(false)}

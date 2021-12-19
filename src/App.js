@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import ResumeBuilder from "./components/ResumeBuilder/ResumeBuilder";
 import MyDailyWork from "./components/MyDailyWork/MyDailyWork";
 import Utility from "./components/Utility/Utility";
-import WorkWeb from "./components/WorkWeb/WorkWeb";
+
 const capitalise = (word) => {
   let a = word.toString().toLowerCase();
   return a.slice(0, 1).toUpperCase() + word.slice(1);

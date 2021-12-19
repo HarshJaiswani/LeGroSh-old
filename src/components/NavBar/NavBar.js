@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className="navigate">
       <HashLink to="#Read">Read</HashLink>
       <HashLink to="#workweb">Work</HashLink>
-      <HashLink to="#workweb">Web</HashLink>
+      <HashLink to="#webhere">Web</HashLink>
       <HashLink to="#ask">Ask</HashLink>
     </div>
   );
