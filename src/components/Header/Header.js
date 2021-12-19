@@ -7,11 +7,12 @@ import webIcon from "../../Assets/webIcon.png";
 import linkIcon from "../../Assets/linkIcon.png";
 import toolIcon from "../../Assets/toolsIcon.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = (props) => {
   const [hover, setHover] = useState(false);
   const changeHover = (paraam) => {
-    if (window.innerWidth > '700px') {
+    if (window.innerWidth > 700) {
       setHover(paraam);
     }
   };
@@ -52,8 +53,8 @@ const Header = (props) => {
               <img className="utilLogo" src={toolIcon} alt="" />
             )}
           </Link>
-          <a
-            href="#workweb"
+          <HashLink
+            to="#workweb"
             className="util util2"
             onMouseEnter={() => changeHover("util2")}
             onMouseLeave={() => changeHover(false)}
@@ -63,7 +64,7 @@ const Header = (props) => {
             ) : (
               <img className="utilLogo" src={linkIcon} alt="" />
             )}
-          </a>
+          </HashLink>
           <Link
             to="/Resume"
             className="util util3"
@@ -77,8 +78,8 @@ const Header = (props) => {
               <img className="utilLogo" src={resumeLogo} alt="" />
             )}{" "}
           </Link>
-          <a
-            href="#workweb"
+          <HashLink
+            to="#workweb"
             className="util util4"
             onMouseEnter={() => changeHover("util4")}
             onMouseLeave={() => changeHover(false)}
@@ -89,7 +90,7 @@ const Header = (props) => {
             ) : (
               <img className="utilLogo" src={webIcon} alt="" />
             )}
-          </a>
+          </HashLink>
         </div>
       </div>
       <div className="mainbarspace"></div>

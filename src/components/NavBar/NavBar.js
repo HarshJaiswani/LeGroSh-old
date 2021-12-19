@@ -1,13 +1,14 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.development";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div className="navigate">
-      <a href="#Read">Read</a>
-      <a href="#workweb">Work</a>
-      <a href="#workweb">Web</a>
-      <a href="#ask">Ask</a>
+      <HashLink to="#Read">Read</HashLink>
+      <HashLink to="#workweb">Work</HashLink>
+      <HashLink to="#workweb">Web</HashLink>
+      <HashLink to="#ask">Ask</HashLink>
     </div>
   );
 };
