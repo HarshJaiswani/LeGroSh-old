@@ -79,7 +79,7 @@ const Header = (props) => {
             )}{" "}
           </Link>
           <HashLink
-            to="#webhere"
+            to={window.innerWidth < 800 ? "#webhere" : "#workweb"}
             className="util util4"
             onMouseEnter={() => changeHover("util4")}
             onMouseLeave={() => changeHover(false)}
