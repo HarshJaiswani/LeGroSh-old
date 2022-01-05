@@ -10,6 +10,7 @@ import Credits from "../Footer/Credits";
 import jspost from "../../Assets/jspost.jpg";
 import js30 from "../../Assets/js30.PNG";
 import reactpost from "../../Assets/reactpost.PNG";
+import nodejspost from "../../Assets/nodejspost.PNG";
 
 const MyDailyWork = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const MyDailyWork = () => {
       </span>
       <div className="achieve">
         <div className="achievecards">
+          <WorkCards posturl={nodejspost} date="One Day" workName="Learnt Basics NodeJs" workDescp="Completed basics of Node JS from Codedamn" />
           <WorkCards posturl={reactpost} date="One Month" workName="Learnt React" workDescp="Completed basics of React and few things of MERN stack with CodeWithHarry" />
           <WorkCards posturl={js30} date="One Month" workName="Learnt JavaScript Techniques" workDescp="Completed 30 Days Challenge 30 Days 30 New Projects." />
           <WorkCards posturl={jspost} date="Two Month" workName="Learnt JavaScript" workDescp="Completed basics of JavaScript with CodeWithHarry" />
